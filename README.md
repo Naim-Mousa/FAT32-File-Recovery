@@ -12,11 +12,11 @@ This tool is designed for recovering files from a FAT32 file system. It supports
 - **SHA1 Verification:** Option to recover files with SHA1 hash verification for ensuring file integrity.
 
 ## Usage
-`Usage: ./nyufile disk <options>
--i                     Print the file system information.
--l                     List the root directory.
--r filename [-s sha1]  Recover a contiguous file.
--R filename -s sha1    Recover a possibly non-contiguous file.`
+`./nyufile disk <options>`
+`-i                     Print the file system information.`
+`-l                     List the root directory.`
+`-r filename [-s sha1]  Recover a contiguous file.`
+`-R filename -s sha1    Recover a possibly non-contiguous file.`
 
 **Examples**
 - `./nyufile disk.img -i`
