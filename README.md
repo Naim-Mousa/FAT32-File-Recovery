@@ -13,9 +13,13 @@ This tool is designed for recovering files from a FAT32 file system. It supports
 
 ## Usage
 `./nyufile disk <options>`
+
 `-i                     Print the file system information.`
+
 `-l                     List the root directory.`
+
 `-r filename [-s sha1]  Recover a contiguous file.`
+
 `-R filename -s sha1    Recover a possibly non-contiguous file.`
 
 **Examples**
